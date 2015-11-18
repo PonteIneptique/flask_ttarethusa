@@ -5,6 +5,7 @@ python:
 install: 
     - pip install -r requirements.txt
     - ./install-tt.sh
+    - pip install coveralls
 # command to run tests
 script: 
     - coverage run --source=MyCapytain setup.py test
