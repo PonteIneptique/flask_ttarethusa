@@ -1,0 +1,5 @@
+*.pyc
+__pycache__
+treetagger
+flask_ttarethusa/constants.py
+*.egg-info
